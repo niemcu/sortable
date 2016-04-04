@@ -41,6 +41,7 @@ footer {
 	display: table;
 	width: 100%;
 	border-spacing: .4em;
+	cursor: pointer;
 }
 
 #table-mock .row {
