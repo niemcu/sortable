@@ -1,5 +1,60 @@
-table tr td {
-	width: 40px;
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	background: #aaa;
+	color: #fff;
+}
+
+div {
+}
+
+#everything {
+	background: #aaa;
+}
+
+header {
+	background: #444;
+}
+
+#lefty {
+	background: #777;
+	float: left;
+	width: 50%;
+}
+
+#righty {
+	background: #999;
+	width: 50%;
+	float: right;
+}
+
+footer {
+	clear: both;
+	background: #000;
+}
+
+#table-mock {
+	display: table;
+	width: 100%;
+	border-spacing: .4em;
+}
+
+#table-mock .row {
+	display: table-row;
+}
+
+#table-mock .cell {
+	background: #666;
 	height: 20px;
-	background: red;
+	width: calc(100% / 12);
+	display: table-cell;
+	border: 1px solid #000;
+}
+
+h1, h2, footer {
+	padding: 5px;
 }
