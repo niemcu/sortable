@@ -12,6 +12,12 @@ body {
 div {
 }
 
+code {
+	overflow-y: scroll;
+	border: 1px solid #fff;
+	
+}
+
 #everything {
 	background: #aaa;
 }
